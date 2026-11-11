@@ -1,14 +1,14 @@
-import { connectDB, getDbConnectionStatus, syncLocalStoreToMongoDB } from "../../src/lib/db/mongodb";
+import { connectDB, getDbConnectionStatus, syncLocalStoreToMongoDB } from "../src/lib/db/mongodb";
 import {
   ensureControlledAdminExists,
   ensureDefaultUserAgents,
-} from "../../src/lib/db/seed-defaults";
-import { User } from "../../src/models/User";
-import { Policy } from "../../src/models/Policy";
-import { Agent } from "../../src/models/Agent";
-import { AuditLog } from "../../src/models/AuditLog";
-import { Notification } from "../../src/models/Notification";
-import { hashPassword } from "../../src/lib/auth/session";
+} from "../src/lib/db/seed-defaults";
+import { User } from "../src/models/User";
+import { Policy } from "../src/models/Policy";
+import { Agent } from "../src/models/Agent";
+import { AuditLog } from "../src/models/AuditLog";
+import { Notification } from "../src/models/Notification";
+import { hashPassword } from "../src/lib/auth/session";
 
 async function runSeed() {
   console.log("Connecting to AgentGuard AI database (paypal-hackathon)...");

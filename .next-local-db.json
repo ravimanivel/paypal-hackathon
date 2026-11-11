@@ -1,0 +1,433 @@
+{
+  "collections": {
+    "users": [
+      {
+        "name": "AgentGuard Security Admin",
+        "email": "admin@agentguard.ai",
+        "passwordHash": "$2b$12$S8A2IP8pkZBXYKgvrKyQX.RECipwHReFpjScHTcoGbbsxs6AC6jT6",
+        "role": "ADMIN",
+        "accountStatus": "ACTIVE",
+        "preferredCurrency": "INR",
+        "onboardingCompleted": true,
+        "paypalConnected": true,
+        "_id": "6af2c07c0d5568779cba2180",
+        "createdAt": "2026-11-10T06:58:04.693Z",
+        "updatedAt": "2026-11-10T06:58:04.695Z"
+      },
+      {
+        "name": "Ravi Demo Customer",
+        "email": "demo@agentguard.ai",
+        "passwordHash": "$2b$12$ttQUCSkpqjCDa6TW/aYqrelRk0xBiLIg369fYRpzQSp/ozAkFJFUm",
+        "role": "USER",
+        "accountStatus": "ACTIVE",
+        "preferredCurrency": "INR",
+        "onboardingCompleted": true,
+        "onboardingStep": 1,
+        "lastActivePath": "/onboarding",
+        "paypalConnected": true,
+        "_id": "6af2c7973a50ed19b1220b4f",
+        "createdAt": "2026-11-10T07:28:23.396Z",
+        "updatedAt": "2026-11-10T07:28:23.398Z"
+      }
+    ],
+    "agents": [
+      {
+        "userId": "6af2c07d0d5568779cba2181",
+        "name": "AgentGuard Shopping Concierge",
+        "description": "Primary AI shopping assistant for product discovery, price comparison, and firewall-checked purchase proposals.",
+        "status": "ACTIVE",
+        "configuration": {
+          "modelName": "gpt-4o-mini",
+          "allowedCategories": [
+            "Laptops",
+            "Electronics",
+            "Accessories",
+            "Software",
+            "Office Equipment"
+          ],
+          "paypalToolkitEnabled": true,
+          "directCaptureAllowed": false,
+          "maxProposalsPerTurn": 3
+        },
+        "totalProposals": 0,
+        "approvedProposals": 0,
+        "blockedProposals": 0,
+        "_id": "6af2c07d0d5568779cba2182",
+        "createdAt": "2026-11-10T06:58:05.029Z",
+        "updatedAt": "2026-11-10T06:58:05.030Z"
+      },
+      {
+        "userId": "6af2c07d0d5568779cba2181",
+        "name": "Enterprise Procurement Scout",
+        "description": "Specialized hardware & software procurement agent bound to strict merchant allowlists.",
+        "status": "ACTIVE",
+        "configuration": {
+          "modelName": "gpt-4o-mini",
+          "allowedCategories": [
+            "Laptops",
+            "Office Equipment",
+            "Software"
+          ],
+          "paypalToolkitEnabled": true,
+          "directCaptureAllowed": false,
+          "maxProposalsPerTurn": 2
+        },
+        "totalProposals": 0,
+        "approvedProposals": 0,
+        "blockedProposals": 0,
+        "_id": "6af2c07d0d5568779cba2183",
+        "createdAt": "2026-11-10T06:58:05.033Z",
+        "updatedAt": "2026-11-10T06:58:05.034Z"
+      },
+      {
+        "userId": "6af2c7973a50ed19b1220b4f",
+        "name": "AgentGuard Shopping Concierge",
+        "description": "Primary AI shopping assistant for product discovery, price comparison, and firewall-checked purchase proposals.",
+        "status": "ACTIVE",
+        "configuration": {
+          "modelName": "gpt-4o-mini",
+          "allowedCategories": [
+            "Laptops",
+            "Electronics",
+            "Accessories",
+            "Software",
+            "Office Equipment"
+          ],
+          "paypalToolkitEnabled": true,
+          "directCaptureAllowed": false,
+          "maxProposalsPerTurn": 3
+        },
+        "totalProposals": 0,
+        "approvedProposals": 0,
+        "blockedProposals": 0,
+        "_id": "6af2c7c83a50ed19b1220b50",
+        "createdAt": "2026-11-10T07:29:12.720Z",
+        "updatedAt": "2026-11-10T07:29:12.723Z"
+      },
+      {
+        "userId": "6af2c7973a50ed19b1220b4f",
+        "name": "Enterprise Procurement Scout",
+        "description": "Specialized hardware & software procurement agent bound to strict merchant allowlists.",
+        "status": "ACTIVE",
+        "configuration": {
+          "modelName": "gpt-4o-mini",
+          "allowedCategories": [
+            "Laptops",
+            "Office Equipment",
+            "Software"
+          ],
+          "paypalToolkitEnabled": true,
+          "directCaptureAllowed": false,
+          "maxProposalsPerTurn": 2
+        },
+        "totalProposals": 0,
+        "approvedProposals": 0,
+        "blockedProposals": 0,
+        "_id": "6af2c7c83a50ed19b1220b51",
+        "createdAt": "2026-11-10T07:29:12.740Z",
+        "updatedAt": "2026-11-10T07:29:12.741Z"
+      },
+      {
+        "userId": "6af2c7f90d5568779cba218c",
+        "name": "AgentGuard Shopping Concierge",
+        "description": "Primary AI shopping assistant for product discovery, price comparison, and firewall-checked purchase proposals.",
+        "status": "ACTIVE",
+        "configuration": {
+          "modelName": "gpt-4o-mini",
+          "allowedCategories": [
+            "Laptops",
+            "Electronics",
+            "Accessories",
+            "Software",
+            "Office Equipment"
+          ],
+          "paypalToolkitEnabled": true,
+          "directCaptureAllowed": false,
+          "maxProposalsPerTurn": 3
+        },
+        "totalProposals": 0,
+        "approvedProposals": 0,
+        "blockedProposals": 0,
+        "_id": "6af2c7f90d5568779cba218d",
+        "createdAt": "2026-11-10T07:30:01.681Z",
+        "updatedAt": "2026-11-10T07:30:01.682Z"
+      },
+      {
+        "userId": "6af2c7f90d5568779cba218c",
+        "name": "Enterprise Procurement Scout",
+        "description": "Specialized hardware & software procurement agent bound to strict merchant allowlists.",
+        "status": "ACTIVE",
+        "configuration": {
+          "modelName": "gpt-4o-mini",
+          "allowedCategories": [
+            "Laptops",
+            "Office Equipment",
+            "Software"
+          ],
+          "paypalToolkitEnabled": true,
+          "directCaptureAllowed": false,
+          "maxProposalsPerTurn": 2
+        },
+        "totalProposals": 0,
+        "approvedProposals": 0,
+        "blockedProposals": 0,
+        "_id": "6af2c7f90d5568779cba218e",
+        "createdAt": "2026-11-10T07:30:01.689Z",
+        "updatedAt": "2026-11-10T07:30:01.690Z"
+      }
+    ],
+    "policies": [
+      {
+        "userId": "6af2c07d0d5568779cba2181",
+        "preset": "BALANCED",
+        "currency": "INR",
+        "maxTransactionAmount": 8000000,
+        "dailyLimit": 10000000,
+        "weeklyLimit": 25000000,
+        "monthlyLimit": 50000000,
+        "autoApprovalThreshold": 1000000,
+        "manualApprovalThreshold": 5000000,
+        "trustedMerchants": [
+          "Amazon India",
+          "Flipkart",
+          "Croma",
+          "Reliance Digital",
+          "Apple Store",
+          "Dell India",
+          "Lenovo Store"
+        ],
+        "blockedMerchants": [
+          "DarkMarket Electronics",
+          "UntrustedKeys Hub",
+          "AnonCrypto Hardware"
+        ],
+        "requireTrustedMerchantForAuto": true,
+        "duplicateProtection": true,
+        "duplicateWindowMinutes": 30,
+        "autoApprovalEnabled": true,
+        "reservedSpendingMinor": 0,
+        "policyVersion": 1,
+        "_id": "6af2c07d0d5568779cba2184",
+        "createdAt": "2026-11-10T06:58:05.037Z",
+        "updatedAt": "2026-11-10T06:58:05.037Z"
+      },
+      {
+        "userId": "6af2c7973a50ed19b1220b4f",
+        "preset": "BALANCED",
+        "currency": "INR",
+        "maxTransactionAmount": 8000000,
+        "dailyLimit": 10000000,
+        "weeklyLimit": 25000000,
+        "monthlyLimit": 50000000,
+        "autoApprovalThreshold": 1000000,
+        "manualApprovalThreshold": 5000000,
+        "trustedMerchants": [
+          "Amazon India",
+          "Flipkart",
+          "Croma",
+          "Reliance Digital",
+          "Apple Store",
+          "Dell India",
+          "Lenovo Store"
+        ],
+        "blockedMerchants": [
+          "DarkMarket Electronics",
+          "UntrustedKeys Hub",
+          "AnonCrypto Hardware"
+        ],
+        "requireTrustedMerchantForAuto": true,
+        "duplicateProtection": true,
+        "duplicateWindowMinutes": 30,
+        "autoApprovalEnabled": true,
+        "reservedSpendingMinor": 0,
+        "policyVersion": 1,
+        "_id": "6af2c7c83a50ed19b1220b52",
+        "createdAt": "2026-11-10T07:29:12.749Z",
+        "updatedAt": "2026-11-10T07:29:12.750Z"
+      },
+      {
+        "userId": "6af2c7f90d5568779cba218c",
+        "preset": "BALANCED",
+        "currency": "INR",
+        "maxTransactionAmount": 8000000,
+        "dailyLimit": 10000000,
+        "weeklyLimit": 25000000,
+        "monthlyLimit": 50000000,
+        "autoApprovalThreshold": 1000000,
+        "manualApprovalThreshold": 5000000,
+        "trustedMerchants": [
+          "Amazon India",
+          "Flipkart",
+          "Croma",
+          "Reliance Digital",
+          "Apple Store",
+          "Dell India",
+          "Lenovo Store"
+        ],
+        "blockedMerchants": [
+          "DarkMarket Electronics",
+          "UntrustedKeys Hub",
+          "AnonCrypto Hardware"
+        ],
+        "requireTrustedMerchantForAuto": true,
+        "duplicateProtection": true,
+        "duplicateWindowMinutes": 30,
+        "autoApprovalEnabled": true,
+        "reservedSpendingMinor": 0,
+        "policyVersion": 3,
+        "_id": "6af2c7f90d5568779cba218f",
+        "createdAt": "2026-11-10T07:30:01.698Z",
+        "updatedAt": "2026-11-10T07:31:24.963Z"
+      }
+    ],
+    "auditlogs": [
+      {
+        "userId": "6af2c07d0d5568779cba2181",
+        "actorRole": "USER",
+        "action": "USER_REGISTERED",
+        "entityType": "USER",
+        "entityId": "6af2c07d0d5568779cba2181",
+        "metadata": {
+          "email": "ravimanivel999@gmail.com",
+          "role": "USER"
+        },
+        "_id": "6af2c07d0d5568779cba2185",
+        "createdAt": "2026-11-10T06:58:05.056Z",
+        "updatedAt": "2026-11-10T06:58:05.057Z"
+      },
+      {
+        "userId": "6af2c07d0d5568779cba2181",
+        "actorRole": "USER",
+        "action": "USER_LOGOUT",
+        "entityType": "USER",
+        "entityId": "6af2c07d0d5568779cba2181",
+        "_id": "6af2c5240d5568779cba218b",
+        "createdAt": "2026-11-10T07:17:56.473Z",
+        "updatedAt": "2026-11-10T07:17:56.474Z"
+      },
+      {
+        "userId": "6af2c7f90d5568779cba218c",
+        "actorRole": "USER",
+        "action": "USER_REGISTERED",
+        "entityType": "USER",
+        "entityId": "6af2c7f90d5568779cba218c",
+        "metadata": {
+          "email": "ravimanivel999@gmail.com",
+          "role": "USER"
+        },
+        "_id": "6af2c7f90d5568779cba2190",
+        "createdAt": "2026-11-10T07:30:01.734Z",
+        "updatedAt": "2026-11-10T07:30:01.736Z"
+      },
+      {
+        "userId": "6af2c7f90d5568779cba218c",
+        "actorRole": "USER",
+        "action": "ONBOARDING_COMPLETED",
+        "entityType": "POLICY",
+        "entityId": "6af2c7f90d5568779cba218f",
+        "metadata": {
+          "preferredCurrency": "INR",
+          "preset": "BALANCED",
+          "connectPayPal": true
+        },
+        "_id": "6af2c8320d5568779cba219b",
+        "createdAt": "2026-11-10T07:30:58.202Z",
+        "updatedAt": "2026-11-10T07:30:58.203Z"
+      },
+      {
+        "userId": "6af2c7f90d5568779cba218c",
+        "actorRole": "USER",
+        "action": "ONBOARDING_COMPLETED",
+        "entityType": "POLICY",
+        "entityId": "6af2c7f90d5568779cba218f",
+        "metadata": {
+          "preferredCurrency": "INR",
+          "preset": "BALANCED",
+          "connectPayPal": true
+        },
+        "_id": "6af2c84c0d5568779cba219f",
+        "createdAt": "2026-11-10T07:31:24.982Z",
+        "updatedAt": "2026-11-10T07:31:24.982Z"
+      },
+      {
+        "userId": "6af2c7f90d5568779cba218c",
+        "actorRole": "USER",
+        "action": "USER_PROFILE_UPDATED",
+        "entityType": "USER",
+        "entityId": "6af2c7f90d5568779cba218c",
+        "metadata": {
+          "preferredCurrency": "INR",
+          "paypalConnected": false,
+          "passwordChanged": "[REDACTED]"
+        },
+        "_id": "6af2c8d20d5568779cba21ae",
+        "createdAt": "2026-11-10T07:33:38.723Z",
+        "updatedAt": "2026-11-10T07:33:38.723Z"
+      },
+      {
+        "userId": "6af2c7f90d5568779cba218c",
+        "actorRole": "USER",
+        "action": "USER_LOGIN_SUCCESS",
+        "entityType": "USER",
+        "entityId": "6af2c7f90d5568779cba218c",
+        "metadata": {
+          "email": "ravimanivel999@gmail.com",
+          "role": "USER",
+          "rememberMe": false
+        },
+        "_id": "6af42cbad26c8d890be20b5d",
+        "createdAt": "2026-11-11T08:52:10.019Z",
+        "updatedAt": "2026-11-11T08:52:10.019Z"
+      }
+    ],
+    "notifications": [
+      {
+        "userId": "6af2c07d0d5568779cba2181",
+        "title": "Welcome to AgentGuard AI",
+        "message": "Your AI Payment Firewall account is active. Complete your 3-step protection setup to configure your spending limits.",
+        "type": "INFO",
+        "read": false,
+        "link": "/onboarding",
+        "_id": "6af2c07d0d5568779cba2186",
+        "createdAt": "2026-11-10T06:58:05.059Z",
+        "updatedAt": "2026-11-10T06:58:05.059Z"
+      },
+      {
+        "userId": "6af2c7f90d5568779cba218c",
+        "title": "Welcome to AgentGuard AI",
+        "message": "Your AI Payment Firewall account is active. Complete your 3-step protection setup to configure your spending limits.",
+        "type": "INFO",
+        "read": false,
+        "link": "/onboarding",
+        "_id": "6af2c7f90d5568779cba2191",
+        "createdAt": "2026-11-10T07:30:01.742Z",
+        "updatedAt": "2026-11-10T07:30:01.743Z"
+      },
+      {
+        "userId": "6af2c7f90d5568779cba218c",
+        "title": "Financial Firewall Active (BALANCED Preset)",
+        "message": "Your BALANCED protection policy in INR is now enforcing spending limits across all AI agents.",
+        "type": "SUCCESS",
+        "read": false,
+        "link": "/policies",
+        "_id": "6af2c8320d5568779cba219c",
+        "createdAt": "2026-11-10T07:30:58.208Z",
+        "updatedAt": "2026-11-10T07:30:58.209Z"
+      },
+      {
+        "userId": "6af2c7f90d5568779cba218c",
+        "title": "Financial Firewall Active (BALANCED Preset)",
+        "message": "Your BALANCED protection policy in INR is now enforcing spending limits across all AI agents.",
+        "type": "SUCCESS",
+        "read": false,
+        "link": "/policies",
+        "_id": "6af2c84c0d5568779cba21a0",
+        "createdAt": "2026-11-10T07:31:24.988Z",
+        "updatedAt": "2026-11-10T07:31:24.989Z"
+      }
+    ],
+    "transactions": [],
+    "approvals": [],
+    "conversations": []
+  }
+}
